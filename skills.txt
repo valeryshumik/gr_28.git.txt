@@ -1,0 +1,1 @@
+skills-knowledge of test documentation,GitHub,Postman,SQL
