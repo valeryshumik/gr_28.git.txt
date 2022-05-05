@@ -1,0 +1,52 @@
+
+TXT
+
+1. Создать внеш. репозиторий с назв. TXT: valeryshumik/gr_28.git.txt
+
+2. Клонировать реп.TXT на локальный комп.:   1) в аккаунте GitHub нажали Code 2)скопир.ссылку HTTPS 3)в GitBash пишем
+
+git clone и вставили ссылку HTTPS 4)сd gr_28.git.txt 5)находимся в ветке (main)
+
+3. Внутри локального TXT созд. файл "new.txt":  touch new.txt
+
+4. Добавить файл под гит.:  1)git status ,файл "new.txt" красного цвета 2)git add new.txt 3)git status,файл "new.txt" зеленый - можно коммитить
+
+5. Закоммитить файл: 1)git commit -m "add new.txt" 2)git status
+
+6. Отправить файл на внешний репозиторий GitHub:  git push
+
+7. Отредактировать содерж.файла "new.txt"- инфо о себе(ФИО,возраст,желаемая з.п.): 1)vim new.txt 2)insert 3)
+                                                                                                             1)Name-Valery
+                                                                                                             2)Surname-Shumik
+                                                                                                             3)Age-43
+                                                                                                               
+
+8. Отправить изменения на внеш. реп. : 1)git commit -am "change new.txt" 2)git push
+
+9. Создать файл "preferences.txt" : touch preferences.txt 
+
+10.Доб.в файл предпочтения 1)vim preferences.txt  2)insert  3) 1)favorite film-Forest Gump
+                                                               2)favorite season-Spring
+                                                               3)favorite country-India
+                                                                                                                            
+11. Создать файл skills.txt и добавить инфу о скиллах в формате TXT : 1)touch skills.txt 2)vim skills.txt 3)insert
+                                                                        4)
+                                                                           hardskills-knowledge of test documentation,GitHub,Postman,SQL
+                                                                         
+12. Cделать коммит в одну строку:  1)git add .  2)git commit -m "add preferences.txt skills.txt"
+
+13. Отправить сразу 2 файла на внеш.реп.: 1)git pull  2)git push
+
+14. На веб интеpфейсе создать файл bug_report.txt: 1)add file 2)create new  file bug_report.txt
+
+15.Сделать Commit changes (сохранить) изменения на веб интерфейсе: commit new file 
+
+                                                                                      
+16.На веб интерфейсе модифицировать файл bug_report.txt,добавить баг репорт в формате TXT: 1) bug_report.txt 2)edit this file  bug reports-10
+                                                                                                                                 
+17.Сделать Commit changes (сохранить) изменения на веб интерфейсе: commit changes
+
+18.Синхронизировать внешний и локальный репозиторий TXT:  1) git fetch 2)git pull 3) git push
+
+   
+                                                                                                                  
